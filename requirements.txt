@@ -1,0 +1,8 @@
+torch
+transformers
+datasets
+fugashi
+ipadic
+unidic-lite
+protobuf
+flask

@@ -37,7 +37,7 @@ def predict(question: str) -> str:
     return label_to_answer.get(label, "該当する回答が見つかりません。")
 
 # GETエンドポイント
-@app.route("/chat", methods=["GET"])
+@app.route("/help", methods=["GET"])
 def chat():
     message = request.args.get("message", "")
     if not message:

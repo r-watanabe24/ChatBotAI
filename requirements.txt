@@ -6,3 +6,4 @@ ipadic
 unidic-lite
 protobuf
 flask
+ollama
